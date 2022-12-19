@@ -15,17 +15,17 @@
   transform: scale(1);
 }
 
-// .backdrop.is-hidden {
-//   opacity: 0;
-//   visibility: hidden;
-//   pointer-events: none;
-// }
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 
-// .backdrop.is-hidden .modal {
-//   visibility: hidden;
-//   opacity: 1;
-//   transform: translate(30%) scale(70%);
-// }
+.backdrop.is-hidden .modal {
+  visibility: hidden;
+  opacity: 1;
+  transform: translate(30%) scale(70%);
+}
 
 .modal {
   padding: 28px;
