@@ -23,7 +23,17 @@
     padding: 32px 54px;
   }
 }
+.backdrop_modal.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 
+.backdrop_modal.is-hidden .modal {
+  visibility: hidden;
+  opacity: 1;
+  transform: translate(30%) scale(70%);
+}
 .modal__close {
   position: absolute;
   display: flex;
